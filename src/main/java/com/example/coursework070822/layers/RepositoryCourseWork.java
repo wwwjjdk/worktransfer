@@ -13,66 +13,48 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Repository
 public class RepositoryCourseWork {
-    private static final int CODE = 1212;
-    private long index;
+    private static ConcurrentHashMap<String, Card> arrayTrue = new ConcurrentHashMap<>();
+    private static ConcurrentHashMap<String, String> codes = new ConcurrentHashMap<>();
 
-    //private ConcurrentHashMap<String , Card> array = new ConcurrentHashMap<>();
-    private Map<String, Card> array = Map.of(
-            "1111111111111111", new Card("1111111111111111", "12/25", "321", 10000),
-            "2222222222222222", new Card("2222222222222222", "12/25", "123", 5000)
-    );
-    private AtomicLong atomicLong = new AtomicLong();
+    private static AtomicLong atomicLong = new AtomicLong();
 
     public Card search(String number) {
-        if (array.containsKey(number)) {
-            return array.get(number);
+        if (arrayTrue.containsKey(number)) {
+            return arrayTrue.get(number);
         } else {
-            throw new RuntimeException();
+            throw new TransferException("User is not found");
         }
     }
 
-    public String transfer(Transfer transfer) {
-        //проверка номеров
-        if (array.containsKey(transfer.getCardFromNumber()) && array.containsKey(transfer.getCardToNumber())) {
-            //проверка данных карты отправителя
-            if (array.get(transfer.getCardFromNumber()).getCvv().equals(transfer.getCardFromCVV()) &&
-                    array.get(transfer.getCardFromNumber()).getData().equals(transfer.getCardFromValidTill())) {
-                //проверка баланса
-                if (array.get(transfer.getCardFromNumber()).getBalance() > transfer.getAmount().getValue()) {
+    public String transfer(String index, String uuid) {
+        codes.put(index , uuid);
+        return "Operation id:" + atomicLong + " code: " + uuid;
+    }
 
-                    index = atomicLong.incrementAndGet();
+    public String confirmOperation(String index) {
+         return "Operation id:" + index + " performed correctly";
+    }
 
-                    doingTransferBetweenCards(transfer);
-
-                    return "Operation id:" + index;
-
-                } else {
-                    throw new TransferException("There are not enough funds on the balance to transfer");
-                }
-            } else {
-                throw new TransferException("Cvv or date is incorrect");
-            }
+    public String createCard(Card card) {
+        if (arrayTrue.containsKey(card.getNumber())) {
+            throw new TransferException("this debit card already exists");
         } else {
-            throw new TransferException("Number is incorrect");
+            arrayTrue.put(card.getNumber(), card);
         }
-
+        return "map created successfully";
     }
 
-    public String confirmOperation(ConfirmOperationCode confirmOperationCode) {
-        if (Integer.parseInt(confirmOperationCode.getOperationId()) == index &&
-                Integer.parseInt(confirmOperationCode.getCode()) == CODE) {
-            return "Operation id: " + index;
-        } else {
-            throw new ConfirmOperationException("operation number or code entered incorrectly");
-        }
+
+    public ConcurrentHashMap<String, Card> getArrayTrue() {
+        return arrayTrue;
+    }
+    public ConcurrentHashMap<String, String> getCodes(){
+        return  codes;
     }
 
-    public void doingTransferBetweenCards(Transfer transfer) {
-        int balanceBeforeFrom = array.get(transfer.getCardFromNumber()).getBalance();
-        int balanceAfterFrom = balanceBeforeFrom - transfer.getAmount().getValue();
-        array.get(transfer.getCardFromNumber()).setBalance(balanceAfterFrom);
-        array.get(transfer.getCardToNumber()).setBalance(
-                array.get(transfer.getCardToNumber()).getBalance() + (
-                        transfer.getAmount().getValue() - (int) (transfer.getAmount().getValue() * 0.01)));
+    public AtomicLong getAtomicLong() {
+        return atomicLong;
     }
+
+
 }

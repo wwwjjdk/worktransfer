@@ -1,95 +1,195 @@
-2022-08-09 16:00:08.517  INFO 34364 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 34364 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 16:00:08.525  INFO 34364 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 16:00:09.439  INFO 34364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 16:00:09.449  INFO 34364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 16:00:09.449  INFO 34364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 16:00:09.543  INFO 34364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 16:00:09.543  INFO 34364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
-2022-08-09 16:00:09.846  INFO 34364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 16:00:09.855  INFO 34364 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.786 seconds (JVM running for 2.413)
-2022-08-09 16:00:52.082  INFO 34364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 16:00:52.083  INFO 34364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 16:00:52.084  INFO 34364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-08-09 16:04:32.319  INFO 38808 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 38808 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 16:04:32.323  INFO 38808 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 16:04:33.132  INFO 38808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 16:04:33.139  INFO 38808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 16:04:33.140  INFO 38808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 16:04:33.206  INFO 38808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 16:04:33.206  INFO 38808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
-2022-08-09 16:04:33.565  INFO 38808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 16:04:33.577  INFO 38808 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.636 seconds (JVM running for 2.215)
-2022-08-09 16:05:07.945  INFO 38808 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 16:05:07.946  INFO 38808 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 16:05:07.946  INFO 38808 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-08-09 16:16:26.886  INFO 22436 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 22436 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 16:16:26.889  INFO 22436 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 16:16:27.679  INFO 22436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 16:16:27.685  INFO 22436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 16:16:27.685  INFO 22436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 16:16:27.750  INFO 22436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 16:16:27.750  INFO 22436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 814 ms
-2022-08-09 16:16:28.015  INFO 22436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 16:16:28.023  INFO 22436 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.444 seconds (JVM running for 1.927)
-2022-08-09 16:17:00.916  INFO 22436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 16:17:00.917  INFO 22436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 16:17:00.918  INFO 22436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-08-09 17:30:45.277  INFO 22436 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 22436 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 17:30:45.277  INFO 22436 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 17:30:46.683  INFO 22436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2022-08-09 17:30:46.700  INFO 22436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 17:30:46.700  INFO 22436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 17:30:46.848  INFO 22436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 17:30:46.848  INFO 22436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1542 ms
-2022-08-09 17:30:47.640  INFO 22436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51475 (http) with context path ''
-2022-08-09 17:30:47.650  INFO 22436 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.705 seconds (JVM running for 17.146)
-2022-08-09 18:00:37.168  INFO 24220 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24220 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:00:37.168  INFO 24220 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:00:38.428  INFO 24220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:00:38.444  INFO 24220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:00:38.444  INFO 24220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:00:38.566  INFO 24220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:00:38.566  INFO 24220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
-2022-08-09 18:00:38.988  INFO 24220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:00:39.005  INFO 24220 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.53 seconds (JVM running for 3.417)
-2022-08-09 18:03:33.480  INFO 24220 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:03:33.480  INFO 24220 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:03:33.480  INFO 24220 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-08-09 18:03:33.783  INFO 24220 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:03:33.786 ERROR 24220 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : transfer error Number is incorrect
-2022-08-09 18:05:21.066  INFO 24220 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:05:21.074 ERROR 24220 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : transfer error Number is incorrect
-2022-08-09 18:05:30.272  INFO 24220 --- [http-nio-8080-exec-9] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:06:52.143  INFO 12336 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 12336 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:06:52.144  INFO 12336 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:06:53.077  INFO 12336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:06:53.085  INFO 12336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:06:53.086  INFO 12336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:06:53.166  INFO 12336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:06:53.166  INFO 12336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 943 ms
-2022-08-09 18:06:53.485  INFO 12336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:06:53.491  INFO 12336 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.8 seconds (JVM running for 2.465)
-2022-08-09 18:07:00.812  INFO 24096 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24096 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:07:00.819  INFO 24096 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:07:02.016  INFO 24096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:07:02.027  INFO 24096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:07:02.027  INFO 24096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:07:02.125  INFO 24096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:07:02.125  INFO 24096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1243 ms
-2022-08-09 18:07:02.513  INFO 24096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:07:02.530  INFO 24096 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.202 seconds (JVM running for 2.907)
-2022-08-09 18:07:10.722  INFO 24096 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:07:10.722  INFO 24096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:07:10.729  INFO 24096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2022-08-09 18:07:17.719  INFO 24096 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:07:19.213  INFO 24096 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:07:19.221 ERROR 24096 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : transfer error There are not enough funds on the balance to transfer
-2022-08-09 18:08:14.740 ERROR 24096 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+2022-08-11 11:06:04.880  INFO 29296 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 29296 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:06:04.880  INFO 29296 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:06:05.639  INFO 29296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 11:06:05.639  INFO 29296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:06:05.639  INFO 29296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:06:05.717  INFO 29296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:06:05.717  INFO 29296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 788 ms
+2022-08-11 11:06:05.992  INFO 29296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 11:06:06.008  INFO 29296 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.473 seconds (JVM running for 2.089)
+2022-08-11 11:09:55.783  INFO 29296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 11:09:55.784  INFO 29296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 11:09:55.785  INFO 29296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-11 11:09:55.892  INFO 29296 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 11:10:14.952  INFO 29296 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 11:10:14.955 ERROR 29296 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : getClient with данная карта уже существует - get error
+2022-08-11 11:10:46.315  INFO 29296 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 11:11:43.339  INFO 29296 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 11:11:43.340 ERROR 29296 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 11:11:51.871  WARN 29296 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.coursework070822.layers.ControllerCourseWork.transfer(com.example.coursework070822.pattern.Transfer): [Field error in object 'transfer' on field 'cardFromNumber': rejected value [111111111111111]; codes [Size.transfer.cardFromNumber,Size.cardFromNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [transfer.cardFromNumber,cardFromNumber]; arguments []; default message [cardFromNumber],2147483647,16]; default message [размер должен находиться в диапазоне от 16 до 2147483647]] ]
+2022-08-11 11:11:58.527  INFO 29296 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 11:11:58.527 ERROR 29296 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 11:12:04.921  WARN 29296 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.coursework070822.layers.ControllerCourseWork.transfer(com.example.coursework070822.pattern.Transfer): [Field error in object 'transfer' on field 'cardToNumber': rejected value [222222222222222]; codes [Size.transfer.cardToNumber,Size.cardToNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [transfer.cardToNumber,cardToNumber]; arguments []; default message [cardToNumber],2147483647,16]; default message [размер должен находиться в диапазоне от 16 до 2147483647]] ]
+2022-08-11 11:12:08.639  INFO 29296 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 11:12:37.125  INFO 29296 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-11 11:12:42.557  INFO 29296 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 11:12:42.557 ERROR 29296 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : getClient with There are not enough funds on the balance to transfer - get error
+2022-08-11 11:12:53.823  INFO 29296 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 11:13:01.782  INFO 29296 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-11 11:13:51.078  INFO 29296 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 11:13:51.078 ERROR 29296 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : getClient with Number is incorrect - get error
+2022-08-11 11:17:20.399  INFO 22288 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 22288 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:17:20.401  INFO 22288 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:17:21.420  INFO 22288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:17:21.429  INFO 22288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:17:21.430  INFO 22288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:17:21.530  INFO 22288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:17:21.530  INFO 22288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1105 ms
+2022-08-11 11:17:22.100  INFO 22288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65152 (http) with context path ''
+2022-08-11 11:17:22.110  INFO 22288 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.002 seconds (JVM running for 14.983)
+2022-08-11 11:18:35.484  INFO 35528 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 35528 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:18:35.487  INFO 35528 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:18:36.488  INFO 35528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:18:36.499  INFO 35528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:18:36.499  INFO 35528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:18:36.599  INFO 35528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:18:36.599  INFO 35528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2022-08-11 11:18:37.163  INFO 35528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65196 (http) with context path ''
+2022-08-11 11:18:37.172  INFO 35528 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.018 seconds (JVM running for 13.285)
+2022-08-11 11:21:41.739  INFO 35516 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 35516 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:21:41.741  INFO 35516 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:21:42.672  INFO 35516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:21:42.683  INFO 35516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:21:42.684  INFO 35516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:21:42.778  INFO 35516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:21:42.778  INFO 35516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2022-08-11 11:21:43.377  INFO 35516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65251 (http) with context path ''
+2022-08-11 11:21:43.386  INFO 35516 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.901 seconds (JVM running for 12.88)
+2022-08-11 11:23:00.562  INFO 35372 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 35372 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:23:00.564  INFO 35372 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:23:01.581  INFO 35372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:23:01.591  INFO 35372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:23:01.592  INFO 35372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:23:01.695  INFO 35372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:23:01.695  INFO 35372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1107 ms
+2022-08-11 11:23:02.268  INFO 35372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65284 (http) with context path ''
+2022-08-11 11:23:02.276  INFO 35372 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.975 seconds (JVM running for 12.054)
+2022-08-11 11:30:40.308  INFO 32828 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 32828 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:30:40.309  INFO 32828 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:30:41.245  INFO 32828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:30:41.262  INFO 32828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:30:41.263  INFO 32828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:30:41.375  INFO 32828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:30:41.375  INFO 32828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2022-08-11 11:30:41.982  INFO 32828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65375 (http) with context path ''
+2022-08-11 11:30:41.991  INFO 32828 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.946 seconds (JVM running for 12.467)
+2022-08-11 11:31:32.739  INFO 34780 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 34780 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:31:32.742  INFO 34780 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:31:33.895  INFO 34780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:31:33.909  INFO 34780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:31:33.910  INFO 34780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:31:34.022  INFO 34780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:31:34.022  INFO 34780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2022-08-11 11:31:34.703  INFO 34780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65401 (http) with context path ''
+2022-08-11 11:31:34.713  INFO 34780 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.312 seconds (JVM running for 15.015)
+2022-08-11 11:33:36.360  INFO 32808 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 32808 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:33:36.362  INFO 32808 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:33:37.381  INFO 32808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:33:37.394  INFO 32808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:33:37.395  INFO 32808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:33:37.507  INFO 32808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:33:37.507  INFO 32808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1118 ms
+2022-08-11 11:33:38.088  INFO 32808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65453 (http) with context path ''
+2022-08-11 11:33:38.096  INFO 32808 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.054 seconds (JVM running for 12.237)
+2022-08-11 11:35:26.087  INFO 37484 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 37484 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:35:26.089  INFO 37484 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:35:27.313  INFO 37484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:35:27.329  INFO 37484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:35:27.330  INFO 37484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:35:27.475  INFO 37484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:35:27.475  INFO 37484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1364 ms
+2022-08-11 11:35:28.266  INFO 37484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65491 (http) with context path ''
+2022-08-11 11:35:28.277  INFO 37484 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.498 seconds (JVM running for 13.643)
+2022-08-11 11:39:03.210  INFO 36612 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 36612 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:39:03.212  INFO 36612 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:39:04.175  INFO 36612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:39:04.186  INFO 36612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:39:04.187  INFO 36612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:39:04.276  INFO 36612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:39:04.276  INFO 36612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2022-08-11 11:39:04.841  INFO 36612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49160 (http) with context path ''
+2022-08-11 11:39:04.850  INFO 36612 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.91 seconds (JVM running for 11.685)
+2022-08-11 11:45:27.464  INFO 37580 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 37580 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:45:27.466  INFO 37580 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:45:28.404  INFO 37580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:45:28.417  INFO 37580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:45:28.417  INFO 37580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:45:28.518  INFO 37580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:45:28.518  INFO 37580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1028 ms
+2022-08-11 11:45:29.134  INFO 37580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49279 (http) with context path ''
+2022-08-11 11:45:29.142  INFO 37580 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.953 seconds (JVM running for 13.014)
+2022-08-11 11:46:34.902  INFO 37596 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 37596 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:46:34.904  INFO 37596 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:46:35.921  INFO 37596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:46:35.931  INFO 37596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:46:35.932  INFO 37596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:46:36.020  INFO 37596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:46:36.021  INFO 37596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1097 ms
+2022-08-11 11:46:36.624  INFO 37596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49311 (http) with context path ''
+2022-08-11 11:46:36.632  INFO 37596 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.992 seconds (JVM running for 12.528)
+2022-08-11 11:49:58.974  INFO 38200 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 38200 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:49:58.976  INFO 38200 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:49:59.963  INFO 38200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:49:59.973  INFO 38200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:49:59.973  INFO 38200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:50:00.072  INFO 38200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:50:00.072  INFO 38200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2022-08-11 11:50:00.640  INFO 38200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49360 (http) with context path ''
+2022-08-11 11:50:00.650  INFO 38200 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.951 seconds (JVM running for 12.493)
+2022-08-11 11:51:07.508  INFO 27704 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 27704 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:51:07.511  INFO 27704 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:51:08.609  INFO 27704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:51:08.621  INFO 27704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:51:08.622  INFO 27704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:51:08.738  INFO 27704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:51:08.738  INFO 27704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
+2022-08-11 11:51:09.431  INFO 27704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49401 (http) with context path ''
+2022-08-11 11:51:09.441  INFO 27704 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.336 seconds (JVM running for 13.149)
+2022-08-11 11:52:29.223  INFO 38984 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 38984 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:52:29.225  INFO 38984 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:52:30.357  INFO 38984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:52:30.369  INFO 38984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:52:30.370  INFO 38984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:52:30.480  INFO 38984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:52:30.480  INFO 38984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
+2022-08-11 11:52:31.188  INFO 38984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49419 (http) with context path ''
+2022-08-11 11:52:31.200  INFO 38984 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.281 seconds (JVM running for 12.777)
+2022-08-11 11:54:41.574  INFO 40852 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 40852 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:54:41.576  INFO 40852 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:54:42.690  INFO 40852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:54:42.702  INFO 40852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:54:42.702  INFO 40852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:54:42.816  INFO 40852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:54:42.816  INFO 40852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+2022-08-11 11:54:43.475  INFO 40852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49468 (http) with context path ''
+2022-08-11 11:54:43.485  INFO 40852 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.226 seconds (JVM running for 13.293)
+2022-08-11 11:57:08.003  INFO 38176 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 38176 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:57:08.005  INFO 38176 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:57:09.075  INFO 38176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 11:57:09.088  INFO 38176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:57:09.089  INFO 38176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:57:09.211  INFO 38176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:57:09.211  INFO 38176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1181 ms
+2022-08-11 11:57:09.943  INFO 38176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49508 (http) with context path ''
+2022-08-11 11:57:09.955  INFO 38176 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.312 seconds (JVM running for 13.29)
+2022-08-11 11:58:42.723  INFO 35356 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 35356 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:58:42.725  INFO 35356 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:58:43.390  INFO 35356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 11:58:43.396  INFO 35356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:58:43.396  INFO 35356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:58:43.456  INFO 35356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:58:43.457  INFO 35356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 686 ms
+2022-08-11 11:58:43.713  INFO 35356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 11:58:43.723  INFO 35356 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.298 seconds (JVM running for 1.763)
+2022-08-11 11:58:49.912  INFO 35356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 11:58:49.913  INFO 35356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 11:58:49.913  INFO 35356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-11 11:58:49.939 ERROR 35356 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
 
 java.lang.RuntimeException: null
-	at com.example.coursework070822.layers.RepositoryCourseWork.search(RepositoryCourseWork.java:30) ~[classes/:na]
-	at com.example.coursework070822.layers.ServiceCourseWork.search(ServiceCourseWork.java:26) ~[classes/:na]
-	at com.example.coursework070822.layers.ControllerCourseWork.search(ControllerCourseWork.java:39) ~[classes/:na]
+	at com.example.coursework070822.layers.RepositoryCourseWork.search(RepositoryCourseWork.java:25) ~[classes/:na]
+	at com.example.coursework070822.layers.ServiceCourseWork.search(ServiceCourseWork.java:53) ~[classes/:na]
+	at com.example.coursework070822.layers.ControllerCourseWork.search(ControllerCourseWork.java:37) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
@@ -139,12 +239,12 @@ java.lang.RuntimeException: null
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-08-09 18:08:15.061 ERROR 24096 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+2022-08-11 11:59:02.739 ERROR 35356 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
 
 java.lang.RuntimeException: null
-	at com.example.coursework070822.layers.RepositoryCourseWork.search(RepositoryCourseWork.java:30) ~[classes/:na]
-	at com.example.coursework070822.layers.ServiceCourseWork.search(ServiceCourseWork.java:26) ~[classes/:na]
-	at com.example.coursework070822.layers.ControllerCourseWork.search(ControllerCourseWork.java:39) ~[classes/:na]
+	at com.example.coursework070822.layers.RepositoryCourseWork.search(RepositoryCourseWork.java:25) ~[classes/:na]
+	at com.example.coursework070822.layers.ServiceCourseWork.search(ServiceCourseWork.java:53) ~[classes/:na]
+	at com.example.coursework070822.layers.ControllerCourseWork.search(ControllerCourseWork.java:37) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
@@ -194,127 +294,339 @@ java.lang.RuntimeException: null
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-08-09 18:09:01.385  INFO 21008 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 21008 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:09:01.386  INFO 21008 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:09:02.434  INFO 21008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:09:02.448  INFO 21008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:09:02.448  INFO 21008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:09:02.561  INFO 21008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:09:02.561  INFO 21008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
-2022-08-09 18:09:03.046  INFO 21008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:09:03.070  INFO 21008 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.181 seconds (JVM running for 2.907)
-2022-08-09 18:09:21.285  INFO 24364 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24364 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:09:21.286  INFO 24364 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:09:22.250  INFO 24364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:09:22.266  INFO 24364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:09:22.266  INFO 24364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:09:22.370  INFO 24364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:09:22.370  INFO 24364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
-2022-08-09 18:09:22.741  INFO 24364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:09:22.746  INFO 24364 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.925 seconds (JVM running for 2.633)
-2022-08-09 18:09:26.855  INFO 24364 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:09:26.863  INFO 24364 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:09:26.863  INFO 24364 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-08-09 18:11:09.327  INFO 24364 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:12:00.208  INFO 24364 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:12:03.588  INFO 24364 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:12:52.484  INFO 25796 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 25796 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:12:52.492  INFO 25796 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:12:53.490  INFO 25796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:12:53.497  INFO 25796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:12:53.497  INFO 25796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:12:53.595  INFO 25796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:12:53.595  INFO 25796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
-2022-08-09 18:12:54.005  INFO 25796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:12:54.018  INFO 25796 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.992 seconds (JVM running for 2.723)
-2022-08-09 18:12:56.126  INFO 25796 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:12:56.126  INFO 25796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:12:56.134  INFO 25796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2022-08-09 18:12:56.241  INFO 25796 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:12:57.839  INFO 25796 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:17:09.274  INFO 24412 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24412 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:17:09.274  INFO 24412 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:17:10.318  INFO 24412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:17:10.334  INFO 24412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:17:10.334  INFO 24412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:17:10.454  INFO 24412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:17:10.454  INFO 24412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
-2022-08-09 18:17:10.849  INFO 24412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:17:10.869  INFO 24412 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.053 seconds (JVM running for 2.736)
-2022-08-09 18:17:21.350  INFO 24412 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:17:21.350  INFO 24412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:17:21.350  INFO 24412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-08-09 18:17:21.528  INFO 24412 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:17:51.004  WARN 24412 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.coursework070822.layers.ControllerCourseWork.transfer(com.example.coursework070822.pattern.Transfer): [Field error in object 'transfer' on field 'cardFromNumber': rejected value [11111111111111]; codes [Size.transfer.cardFromNumber,Size.cardFromNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [transfer.cardFromNumber,cardFromNumber]; arguments []; default message [cardFromNumber],2147483647,16]; default message [размер должен находиться в диапазоне от 16 до 2147483647]] ]
-2022-08-09 18:18:05.513  INFO 24412 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:21:07.189  INFO 24516 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24516 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:21:07.194  INFO 24516 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:21:08.206  INFO 24516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:21:08.217  INFO 24516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:21:08.218  INFO 24516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:21:08.351  INFO 24516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:21:08.351  INFO 24516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1096 ms
-2022-08-09 18:21:08.760  INFO 24516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:21:08.774  INFO 24516 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.065 seconds (JVM running for 2.785)
-2022-08-09 18:21:16.254  INFO 24516 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:21:16.255  INFO 24516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:21:16.259  INFO 24516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2022-08-09 18:21:16.479  INFO 24516 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:21:37.637  INFO 27752 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 27752 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:21:37.640  INFO 27752 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:21:38.702  INFO 27752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:21:38.711  INFO 27752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:21:38.711  INFO 27752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:21:38.797  INFO 27752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:21:38.797  INFO 27752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1096 ms
-2022-08-09 18:21:39.330  INFO 27752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:21:39.344  INFO 27752 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.185 seconds (JVM running for 2.916)
-2022-08-09 18:24:15.100  INFO 26664 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 26664 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:24:15.102  INFO 26664 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:24:15.896  INFO 26664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:24:15.904  INFO 26664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:24:15.905  INFO 26664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:24:15.966  INFO 26664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:24:15.966  INFO 26664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 823 ms
-2022-08-09 18:24:16.212  INFO 26664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:24:16.221  INFO 26664 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.473 seconds (JVM running for 2.202)
-2022-08-09 18:24:21.499  INFO 26664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:24:21.500  INFO 26664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:24:21.503  INFO 26664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-08-09 18:24:21.740  INFO 26664 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : translation request 
-2022-08-09 18:25:55.866  INFO 25584 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 25584 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:25:55.870  INFO 25584 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:25:56.902  INFO 25584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:25:56.919  INFO 25584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:25:56.920  INFO 25584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:25:57.063  INFO 25584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:25:57.063  INFO 25584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1127 ms
-2022-08-09 18:25:57.462  INFO 25584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:25:57.478  INFO 25584 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.112 seconds (JVM running for 2.942)
-2022-08-09 18:26:05.199  INFO 24444 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24444 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:26:05.203  INFO 24444 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:26:06.515  INFO 24444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:26:06.530  INFO 24444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:26:06.530  INFO 24444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:26:06.650  INFO 24444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:26:06.650  INFO 24444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
-2022-08-09 18:26:06.980  INFO 24444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:26:06.996  INFO 24444 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.272 seconds (JVM running for 2.998)
-2022-08-09 18:26:09.197  INFO 24444 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:26:09.205  INFO 24444 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:26:09.205  INFO 24444 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-08-09 18:26:09.312 ERROR 24444 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : transfer error сумма не должна быть меньше 0
-2022-08-09 18:32:29.375  INFO 28508 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 28508 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-09 18:32:29.375  INFO 28508 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
-2022-08-09 18:32:30.533  INFO 28508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-09 18:32:30.541  INFO 28508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-09 18:32:30.541  INFO 28508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-09 18:32:30.644  INFO 28508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-09 18:32:30.644  INFO 28508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
-2022-08-09 18:32:31.078  INFO 28508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-09 18:32:31.089  INFO 28508 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 2.167 seconds (JVM running for 2.97)
-2022-08-09 18:32:34.479  INFO 28508 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 18:32:34.479  INFO 28508 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-09 18:32:34.479  INFO 28508 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-08-09 18:32:34.545 ERROR 28508 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : transfer error сумма не должна быть меньше 0
-2022-08-09 18:32:41.811  INFO 28508 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request 
+2022-08-11 11:59:31.744  INFO 40932 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 40932 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 11:59:31.747  INFO 40932 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:59:32.449  INFO 40932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 11:59:32.458  INFO 40932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:59:32.458  INFO 40932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:59:32.540  INFO 40932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:59:32.540  INFO 40932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2022-08-11 11:59:32.788  INFO 40932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 11:59:32.797  INFO 40932 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.393 seconds (JVM running for 1.873)
+2022-08-11 12:00:22.585  INFO 40932 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 12:00:22.585  INFO 40932 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 12:00:22.586  INFO 40932 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-11 12:00:22.712  INFO 40932 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 12:00:39.767  INFO 40932 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 12:00:49.834  INFO 40932 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 12:01:12.223  INFO 40932 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 12:01:12.226 ERROR 40932 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 12:01:36.713  INFO 40932 --- [http-nio-8080-exec-9] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:21:21.036  INFO 48736 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 48736 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:21:21.037  INFO 48736 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:21:22.054  INFO 48736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:21:22.062  INFO 48736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:21:22.063  INFO 48736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:21:22.165  INFO 48736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:21:22.165  INFO 48736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
+2022-08-11 20:21:22.837  INFO 48736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59191 (http) with context path ''
+2022-08-11 20:21:22.845  INFO 48736 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.119 seconds (JVM running for 13.797)
+2022-08-11 20:21:44.381  INFO 18856 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 18856 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:21:44.381  INFO 18856 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:21:45.419  INFO 18856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:21:45.428  INFO 18856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:21:45.428  INFO 18856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:21:45.531  INFO 18856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:21:45.532  INFO 18856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1131 ms
+2022-08-11 20:21:46.180  INFO 18856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59216 (http) with context path ''
+2022-08-11 20:21:46.189  INFO 18856 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.116 seconds (JVM running for 12.737)
+2022-08-11 20:23:22.420  INFO 27772 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 27772 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:23:22.422  INFO 27772 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:23:23.411  INFO 27772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:23:23.424  INFO 27772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:23:23.424  INFO 27772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:23:23.527  INFO 27772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:23:23.528  INFO 27772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
+2022-08-11 20:23:24.163  INFO 27772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59260 (http) with context path ''
+2022-08-11 20:23:24.173  INFO 27772 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.026 seconds (JVM running for 13.675)
+2022-08-11 20:29:05.558  INFO 43744 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 43744 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:29:05.559  INFO 43744 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:29:06.479  INFO 43744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:29:06.489  INFO 43744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:29:06.489  INFO 43744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:29:06.583  INFO 43744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:29:06.583  INFO 43744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2022-08-11 20:29:07.183  INFO 43744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59348 (http) with context path ''
+2022-08-11 20:29:07.194  INFO 43744 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.912 seconds (JVM running for 12.963)
+2022-08-11 20:29:35.272  INFO 5752 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 5752 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:29:35.274  INFO 5752 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:29:36.261  INFO 5752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:29:36.276  INFO 5752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:29:36.276  INFO 5752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:29:36.376  INFO 5752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:29:36.376  INFO 5752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1081 ms
+2022-08-11 20:29:37.010  INFO 5752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59370 (http) with context path ''
+2022-08-11 20:29:37.018  INFO 5752 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.021 seconds (JVM running for 12.343)
+2022-08-11 20:30:16.817  INFO 24892 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24892 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:30:16.819  INFO 24892 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:30:18.090  INFO 24892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:30:18.104  INFO 24892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:30:18.105  INFO 24892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:30:18.230  INFO 24892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:30:18.230  INFO 24892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1386 ms
+2022-08-11 20:30:19.027  INFO 24892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59397 (http) with context path ''
+2022-08-11 20:30:19.036  INFO 24892 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.563 seconds (JVM running for 15.282)
+2022-08-11 20:31:24.178  INFO 7612 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 7612 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:31:24.180  INFO 7612 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:31:25.168  INFO 7612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:31:25.181  INFO 7612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:31:25.181  INFO 7612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:31:25.282  INFO 7612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:31:25.282  INFO 7612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1079 ms
+2022-08-11 20:31:25.876  INFO 7612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59426 (http) with context path ''
+2022-08-11 20:31:25.883  INFO 7612 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.031 seconds (JVM running for 12.283)
+2022-08-11 20:35:42.840  INFO 43856 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 43856 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:35:42.842  INFO 43856 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:35:43.895  INFO 43856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:35:43.906  INFO 43856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:35:43.907  INFO 43856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:35:44.013  INFO 43856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:35:44.013  INFO 43856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2022-08-11 20:35:44.679  INFO 43856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59505 (http) with context path ''
+2022-08-11 20:35:44.688  INFO 43856 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.134 seconds (JVM running for 12.259)
+2022-08-11 20:49:44.030  INFO 25248 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 25248 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:49:44.031  INFO 25248 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:49:45.002  INFO 25248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 20:49:45.015  INFO 25248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:49:45.016  INFO 25248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:49:45.122  INFO 25248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:49:45.122  INFO 25248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2022-08-11 20:49:45.713  INFO 25248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60405 (http) with context path ''
+2022-08-11 20:49:45.722  INFO 25248 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.99 seconds (JVM running for 12.73)
+2022-08-11 20:50:28.371  INFO 24832 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 24832 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 20:50:28.373  INFO 24832 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 20:50:29.127  INFO 24832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 20:50:29.134  INFO 24832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 20:50:29.134  INFO 24832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 20:50:29.199  INFO 24832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 20:50:29.199  INFO 24832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 784 ms
+2022-08-11 20:50:29.521  INFO 24832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 20:50:29.531  INFO 24832 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.49 seconds (JVM running for 1.996)
+2022-08-11 20:50:38.689  INFO 24832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 20:50:38.690  INFO 24832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 20:50:38.691  INFO 24832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-11 20:50:38.719 ERROR 24832 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+
+java.lang.RuntimeException: null
+	at com.example.coursework070822.layers.RepositoryCourseWork.search(RepositoryCourseWork.java:25) ~[classes/:na]
+	at com.example.coursework070822.layers.ServiceCourseWork.search(ServiceCourseWork.java:55) ~[classes/:na]
+	at com.example.coursework070822.layers.ControllerCourseWork.search(ControllerCourseWork.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-08-11 20:50:46.548 ERROR 24832 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+
+java.lang.RuntimeException: null
+	at com.example.coursework070822.layers.RepositoryCourseWork.search(RepositoryCourseWork.java:25) ~[classes/:na]
+	at com.example.coursework070822.layers.ServiceCourseWork.search(ServiceCourseWork.java:55) ~[classes/:na]
+	at com.example.coursework070822.layers.ControllerCourseWork.search(ControllerCourseWork.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-08-11 20:50:52.572  INFO 24832 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-11 20:50:52.574 ERROR 24832 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : getClient with operation number or code entered incorrectly - get error
+2022-08-11 20:51:02.762  INFO 24832 --- [http-nio-8080-exec-9] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 20:51:33.574  INFO 24832 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 20:51:54.532  INFO 24832 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:51:54.533 ERROR 24832 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : getClient with Number is incorrect - get error
+2022-08-11 20:51:59.642  INFO 24832 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:52:06.423  INFO 24832 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-11 20:52:41.320  INFO 24832 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:52:41.321 ERROR 24832 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 20:52:48.621  INFO 24832 --- [http-nio-8080-exec-9] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:52:48.622 ERROR 24832 --- [http-nio-8080-exec-9] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 20:52:54.047  INFO 24832 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:52:54.048 ERROR 24832 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : getClient with There are not enough funds on the balance to transfer - get error
+2022-08-11 20:53:00.689  INFO 24832 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:53:00.690 ERROR 24832 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 20:53:11.025  INFO 24832 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:53:16.274  INFO 24832 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:53:16.275 ERROR 24832 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 20:53:23.173  INFO 24832 --- [http-nio-8080-exec-6] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 20:53:23.174 ERROR 24832 --- [http-nio-8080-exec-6] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-11 21:00:57.726  INFO 27536 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 27536 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 21:00:57.728  INFO 27536 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 21:00:58.656  INFO 27536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 21:00:58.668  INFO 27536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 21:00:58.669  INFO 27536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 21:00:58.784  INFO 27536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 21:00:58.785  INFO 27536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2022-08-11 21:00:59.368  INFO 27536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56724 (http) with context path ''
+2022-08-11 21:00:59.377  INFO 27536 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.947 seconds (JVM running for 12.439)
+2022-08-11 21:01:54.363  INFO 35848 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 35848 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 21:01:54.365  INFO 35848 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 21:01:55.532  INFO 35848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 21:01:55.545  INFO 35848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 21:01:55.546  INFO 35848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 21:01:55.650  INFO 35848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 21:01:55.651  INFO 35848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1259 ms
+2022-08-11 21:01:56.358  INFO 35848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56748 (http) with context path ''
+2022-08-11 21:01:56.369  INFO 35848 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.407 seconds (JVM running for 14.23)
+2022-08-11 21:10:09.555  INFO 18208 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 18208 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 21:10:09.558  INFO 18208 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 21:10:10.520  INFO 18208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 21:10:10.531  INFO 18208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 21:10:10.532  INFO 18208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 21:10:10.629  INFO 18208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 21:10:10.629  INFO 18208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2022-08-11 21:10:11.214  INFO 18208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49558 (http) with context path ''
+2022-08-11 21:10:11.223  INFO 18208 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.969 seconds (JVM running for 12.142)
+2022-08-11 22:04:50.848  INFO 44492 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 44492 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 22:04:50.851  INFO 44492 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 22:04:51.578  INFO 44492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 22:04:51.587  INFO 44492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 22:04:51.587  INFO 44492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 22:04:51.662  INFO 44492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 22:04:51.662  INFO 44492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 766 ms
+2022-08-11 22:04:51.937  INFO 44492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 22:04:51.946  INFO 44492 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.467 seconds (JVM running for 1.962)
+2022-08-11 22:05:15.035  INFO 44492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 22:05:15.036  INFO 44492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 22:05:15.036  INFO 44492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-11 22:05:15.143  INFO 44492 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 22:05:25.486  INFO 44492 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 22:05:38.561  INFO 44492 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:41.738  INFO 44492 --- [http-nio-8080-exec-6] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:41.740 ERROR 44492 --- [http-nio-8080-exec-6] c.e.c.layers.ControllerCourseWork        : getClient with There are not enough funds on the balance to transfer - get error
+2022-08-11 22:05:47.628  INFO 44492 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:50.177  INFO 44492 --- [http-nio-8080-exec-2] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:50.896  INFO 44492 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:51.518  INFO 44492 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:52.049  INFO 44492 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:05:52.517  INFO 44492 --- [http-nio-8080-exec-3] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:18:00.131  INFO 22536 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 22536 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 22:18:00.133  INFO 22536 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 22:18:00.878  INFO 22536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 22:18:00.886  INFO 22536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 22:18:00.887  INFO 22536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 22:18:00.960  INFO 22536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 22:18:00.960  INFO 22536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 789 ms
+2022-08-11 22:18:01.248  INFO 22536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 22:18:01.257  INFO 22536 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.466 seconds (JVM running for 1.959)
+2022-08-11 22:18:10.248  INFO 22536 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 22:18:10.249  INFO 22536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 22:18:10.250  INFO 22536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-11 22:18:10.280 ERROR 22536 --- [http-nio-8080-exec-1] c.e.c.layers.ControllerCourseWork        : getClient with User is not found - get error
+2022-08-11 22:18:29.573  INFO 22536 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 22:19:10.631  INFO 22536 --- [http-nio-8080-exec-6] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-11 22:19:23.623  INFO 22536 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-11 22:19:38.553  INFO 22536 --- [http-nio-8080-exec-9] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-11 23:01:37.903  INFO 5208 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 5208 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 23:01:37.904  INFO 5208 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 23:01:38.944  INFO 5208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 23:01:38.955  INFO 5208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 23:01:38.956  INFO 5208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 23:01:39.047  INFO 5208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 23:01:39.047  INFO 5208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1122 ms
+2022-08-11 23:01:39.630  INFO 5208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55501 (http) with context path ''
+2022-08-11 23:01:39.638  INFO 5208 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.007 seconds (JVM running for 14.861)
+2022-08-11 23:02:18.969  INFO 28216 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 28216 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 23:02:18.970  INFO 28216 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 23:02:20.208  INFO 28216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 23:02:20.222  INFO 28216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 23:02:20.222  INFO 28216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 23:02:20.324  INFO 28216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 23:02:20.325  INFO 28216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2022-08-11 23:02:21.091  INFO 28216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55516 (http) with context path ''
+2022-08-11 23:02:21.102  INFO 28216 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.488 seconds (JVM running for 14.352)
+2022-08-11 23:11:59.459  INFO 41672 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 41672 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-11 23:11:59.461  INFO 41672 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 23:12:00.512  INFO 41672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-11 23:12:00.525  INFO 41672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 23:12:00.525  INFO 41672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 23:12:00.635  INFO 41672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 23:12:00.636  INFO 41672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1153 ms
+2022-08-11 23:12:01.219  INFO 41672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57190 (http) with context path ''
+2022-08-11 23:12:01.228  INFO 41672 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.05 seconds (JVM running for 13.667)

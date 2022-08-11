@@ -1,13 +1,26 @@
 package com.example.coursework070822.pattern;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+import org.springframework.validation.annotation.Validated;
 
-@Data
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
+
+@ToString
+@Getter
+@Setter
 @AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
+@Validated
 public class Card {
-    private String number;
-    private String data;
-    private String cvv;
-    private int balance;
+    @Size(min = 16, max = 16)
+    String number;
+    @Size(min = 4, max = 5)
+    transient String data;
+    @Size(min = 3, max = 3)
+    transient String cvv;
+    @Min(100)
+    int balance;
 }

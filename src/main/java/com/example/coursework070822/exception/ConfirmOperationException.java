@@ -1,6 +1,6 @@
 package com.example.coursework070822.exception;
 
-public class ConfirmOperationException extends RuntimeException{
+public class ConfirmOperationException extends RuntimeException {
     public ConfirmOperationException() {
         super();
     }

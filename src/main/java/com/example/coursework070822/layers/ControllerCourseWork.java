@@ -5,51 +5,55 @@ import com.example.coursework070822.exception.TransferException;
 import com.example.coursework070822.pattern.Card;
 import com.example.coursework070822.pattern.ConfirmOperationCode;
 import com.example.coursework070822.pattern.Transfer;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @RestController
 @RequestMapping("/")
+@Slf4j
 public class ControllerCourseWork {
-    private static final Logger LOGGER = LoggerFactory.getLogger(ControllerCourseWork.class);
+    private final ServiceCourseWork serviceCourseWork;
 
-    private  final ServiceCourseWork serviceCourseWork;
-
-    public ControllerCourseWork(ServiceCourseWork serviceCourseWork){
+    public ControllerCourseWork(ServiceCourseWork serviceCourseWork) {
         this.serviceCourseWork = serviceCourseWork;
     }
 
     @PostMapping("/transfer")
-    public String transfer(@Valid @RequestBody Transfer transfer){
-        LOGGER.info("translation request ");
+    public String transfer(@Valid @RequestBody Transfer transfer) {
+        log.info("translation request");
         return serviceCourseWork.transfer(transfer);
     }
 
     @PostMapping("/confirmOperation")
-    public String confirmOperation(@RequestBody ConfirmOperationCode confirmOperationCode){
-        LOGGER.info("code verification request");
+    public String confirmOperation(@Valid @RequestBody ConfirmOperationCode confirmOperationCode) {
+        log.info("method confirmOperation is starting");
         return serviceCourseWork.confirmOperation(confirmOperationCode);
     }
+
     @GetMapping("/{number}")
-    public Card search(@PathVariable String number){
-         return serviceCourseWork.search(number);
+    public Card search(@PathVariable String number) {
+        return serviceCourseWork.search(number);
+    }
+
+    @PostMapping("/createCard")
+    public String createCard(@Valid @RequestBody Card card){
+        log.info("creating card");
+        return serviceCourseWork.createCard(card);
     }
 
     @ExceptionHandler(TransferException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    String ex1(TransferException transferException){
-        LOGGER.error("transfer error " + transferException.getMessage());
+    String ex1(TransferException transferException) {
+        log.error("getClient with {} - get error", transferException.getMessage());
         return transferException.getMessage();
     }
 
     @ExceptionHandler(ConfirmOperationException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    String ex2(ConfirmOperationException confirmOperationException){
-        LOGGER.error("confirmOperationException " + confirmOperationException.getMessage());
+    String ex2(ConfirmOperationException confirmOperationException) {
+        log.error("getClient with {} - get error", confirmOperationException.getMessage());
         return confirmOperationException.getMessage();
     }
 }

@@ -1,23 +1,24 @@
 package com.example.coursework070822.pattern;
 
 import com.example.coursework070822.exception.TransferException;
-import lombok.Data;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
 import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.Min;
 
+import static lombok.AccessLevel.PRIVATE;
+
 @Validated
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@ToString
+@FieldDefaults(level = PRIVATE)
 public class Amount {
     @Min(0)
-    private int value;
-    private String currency;
+    int value;
+    String currency;
 
-    public Amount(int value, String currency) {
-        /*if(value < 0){
-            throw new TransferException("сумма не должна быть меньше 0");
-        }*/
-        this.value = value;
-        this.currency = currency;
-    }
+
 }

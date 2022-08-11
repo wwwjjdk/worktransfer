@@ -1,6 +1,6 @@
 package com.example.coursework070822.exception;
 
-public class TransferException extends RuntimeException{
+public class TransferException extends RuntimeException {
     public TransferException() {
         super();
     }
