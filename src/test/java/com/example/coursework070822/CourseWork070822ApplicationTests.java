@@ -33,10 +33,6 @@ import static org.mockito.Mockito.*;
 
 class CourseWork070822ApplicationTests {
 
-
-
-
-
     @Autowired
     TestRestTemplate testRestTemplate;
     @Container
@@ -57,6 +53,11 @@ class CourseWork070822ApplicationTests {
     }
     @Test
     void testTransfer(){
+        RepositoryCourseWork repositoryCourseWork = new RepositoryCourseWork();
+        repositoryCourseWork.getArrayTrue().put("1111111111111111",
+                new Card("1111111111111111","12/25","321",300));
+        repositoryCourseWork.getArrayTrue().put("2222222222222222",
+                new Card("2222222222222222","12/25","123",100));
         String host = "http://localhost:";
         Amount amount = new Amount(100,"RUR");
         Transfer transfer = new Transfer("1111111111111111","12/25",

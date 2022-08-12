@@ -18,9 +18,9 @@ public class Card {
     @Size(min = 16, max = 16)
     String number;
     @Size(min = 4, max = 5)
-    transient String data;
+    String data;
     @Size(min = 3, max = 3)
-    transient String cvv;
+    String cvv;
     @Min(100)
     int balance;
 }
