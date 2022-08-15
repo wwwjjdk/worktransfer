@@ -7,6 +7,7 @@ import org.springframework.validation.annotation.Validated;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
+import java.util.Objects;
 
 @ToString
 @Getter
@@ -23,4 +24,17 @@ public class Card {
     String cvv;
     @Min(100)
     int balance;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Card card = (Card) o;
+        return balance == card.balance && Objects.equals(number, card.number) && Objects.equals(data, card.data) && Objects.equals(cvv, card.cvv);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(number, data, cvv, balance);
+    }
 }

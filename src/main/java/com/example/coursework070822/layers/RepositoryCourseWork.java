@@ -40,8 +40,8 @@ public class RepositoryCourseWork {
             throw new TransferException("this debit card already exists");
         } else {
             arrayTrue.put(card.getNumber(), card);
+            return "map created successfully";
         }
-        return "map created successfully";
     }
 
 

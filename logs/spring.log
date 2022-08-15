@@ -1,9 +1,55 @@
-2022-08-12 21:01:48.692  INFO 15600 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 15600 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
-2022-08-12 21:01:48.698  INFO 15600 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
-2022-08-12 21:01:49.721  INFO 15600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2022-08-12 21:01:49.732  INFO 15600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-12 21:01:49.732  INFO 15600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-12 21:01:49.859  INFO 15600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-12 21:01:49.860  INFO 15600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
-2022-08-12 21:01:50.422  INFO 15600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55021 (http) with context path ''
-2022-08-12 21:01:50.430  INFO 15600 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 1.993 seconds (JVM running for 14.437)
+2022-08-16 00:22:21.766  INFO 28780 --- [main] c.e.c.CourseWork070822ApplicationTests   : Starting CourseWork070822ApplicationTests using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 28780 (started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-16 00:22:21.772  INFO 28780 --- [main] c.e.c.CourseWork070822ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-16 00:22:23.036  INFO 28780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-16 00:22:23.048  INFO 28780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-16 00:22:23.049  INFO 28780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 00:22:23.199  INFO 28780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-16 00:22:23.199  INFO 28780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1399 ms
+2022-08-16 00:22:24.043  INFO 28780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49281 (http) with context path ''
+2022-08-16 00:22:24.051  INFO 28780 --- [main] c.e.c.CourseWork070822ApplicationTests   : Started CourseWork070822ApplicationTests in 2.637 seconds (JVM running for 16.633)
+2022-08-16 00:23:02.110  INFO 23568 --- [main] c.e.c.CourseWork070822Application        : Starting CourseWork070822Application using Java 18.0.1.1 on LAPTOP-F8VJTT0G with PID 23568 (C:\Users\gosha\IdeaProjects\CourseWork070822\target\classes started by gosha in C:\Users\gosha\IdeaProjects\CourseWork070822)
+2022-08-16 00:23:02.112  INFO 23568 --- [main] c.e.c.CourseWork070822Application        : No active profile set, falling back to 1 default profile: "default"
+2022-08-16 00:23:02.825  INFO 23568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-16 00:23:02.833  INFO 23568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-16 00:23:02.833  INFO 23568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 00:23:02.900  INFO 23568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-16 00:23:02.900  INFO 23568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2022-08-16 00:23:03.184  INFO 23568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-16 00:23:03.194  INFO 23568 --- [main] c.e.c.CourseWork070822Application        : Started CourseWork070822Application in 1.439 seconds (JVM running for 2.005)
+2022-08-16 00:23:17.666  INFO 23568 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 00:23:17.667  INFO 23568 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-16 00:23:17.668  INFO 23568 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-16 00:23:17.808  INFO 23568 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-16 00:23:39.184  INFO 23568 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-16 00:23:39.187 ERROR 23568 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : getClient with this debit card already exists - get error
+2022-08-16 00:23:52.538  INFO 23568 --- [http-nio-8080-exec-6] c.e.c.layers.ControllerCourseWork        : creating card
+2022-08-16 00:24:01.647  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-16 00:24:01.648  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ServiceCourseWork           : БАЛАНС:
+До перевода->200;
+ После перевода->100.
+2022-08-16 00:24:01.650  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ServiceCourseWork           : коммисия при переводе составляет:1
+2022-08-16 00:24:01.650  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ServiceCourseWork           : БАЛАНС:
+ До перевода->100;
+ После перевода->199;
+ Сумма перевода с учетом коммиссии->99.
+2022-08-16 00:24:07.576  INFO 23568 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-16 00:24:07.577 ERROR 23568 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-16 00:24:16.708  WARN 23568 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.coursework070822.layers.ControllerCourseWork.transfer(com.example.coursework070822.pattern.Transfer): [Field error in object 'transfer' on field 'cardFromNumber': rejected value [111111111111111]; codes [Size.transfer.cardFromNumber,Size.cardFromNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [transfer.cardFromNumber,cardFromNumber]; arguments []; default message [cardFromNumber],2147483647,16]; default message [размер должен находиться в диапазоне от 16 до 2147483647]] ]
+2022-08-16 00:24:28.645  INFO 23568 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-16 00:24:28.646 ERROR 23568 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : getClient with Cvv or date is incorrect - get error
+2022-08-16 00:24:39.605  INFO 23568 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-16 00:24:39.606 ERROR 23568 --- [http-nio-8080-exec-4] c.e.c.layers.ControllerCourseWork        : getClient with There are not enough funds on the balance to transfer - get error
+2022-08-16 00:25:21.463  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ControllerCourseWork        : translation request
+2022-08-16 00:25:21.463  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ServiceCourseWork           : БАЛАНС:
+До перевода->100;
+ После перевода->99.
+2022-08-16 00:25:21.464  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ServiceCourseWork           : коммисия при переводе составляет:0
+2022-08-16 00:25:21.464  INFO 23568 --- [http-nio-8080-exec-7] c.e.c.layers.ServiceCourseWork           : БАЛАНС:
+ До перевода->199;
+ После перевода->200;
+ Сумма перевода с учетом коммиссии->1.
+2022-08-16 00:25:40.556  INFO 23568 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-16 00:25:40.556 ERROR 23568 --- [http-nio-8080-exec-8] c.e.c.layers.ControllerCourseWork        : getClient with operation number or code entered incorrectly - get error
+2022-08-16 00:25:46.378  INFO 23568 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting
+2022-08-16 00:25:46.379 ERROR 23568 --- [http-nio-8080-exec-10] c.e.c.layers.ControllerCourseWork        : getClient with operation number or code entered incorrectly - get error
+2022-08-16 00:25:56.511  INFO 23568 --- [http-nio-8080-exec-5] c.e.c.layers.ControllerCourseWork        : method confirmOperation is starting

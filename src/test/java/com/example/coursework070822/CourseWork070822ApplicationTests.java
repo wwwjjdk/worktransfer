@@ -1,6 +1,5 @@
 package com.example.coursework070822;
 
-import com.example.coursework070822.layers.ControllerCourseWork;
 import com.example.coursework070822.layers.RepositoryCourseWork;
 import com.example.coursework070822.pattern.Amount;
 import com.example.coursework070822.pattern.Card;
@@ -8,12 +7,9 @@ import com.example.coursework070822.pattern.ConfirmOperationCode;
 import com.example.coursework070822.pattern.Transfer;
 
 
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
@@ -24,14 +20,12 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.nio.file.Paths;
-import java.util.concurrent.ConcurrentHashMap;
-
-import static org.mockito.Mockito.*;
 
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-
 class CourseWork070822ApplicationTests {
+
+    private String host = "http://localhost:";
 
     @Autowired
     TestRestTemplate testRestTemplate;
@@ -43,22 +37,15 @@ class CourseWork070822ApplicationTests {
 
     @Test
     void testCreateCard() {
-        String host= "http://localhost:";
         Card card = new Card("1111111111111111", "12/15", "321", 100);
 
-        Card answer = testRestTemplate.postForObject(host + generic.getMappedPort(8080)+ "/createCard",
-                card, Card.class);
+        String answer = testRestTemplate.postForObject(host + generic.getMappedPort(8080)+ "/createCard",
+                card, String.class);
 
-        Assertions.assertEquals(card.toString(),answer.toString());
+        Assertions.assertEquals("map created successfully",answer);
     }
     @Test
     void testTransfer(){
-        RepositoryCourseWork repositoryCourseWork = new RepositoryCourseWork();
-        repositoryCourseWork.getArrayTrue().put("1111111111111111",
-                new Card("1111111111111111","12/25","321",300));
-        repositoryCourseWork.getArrayTrue().put("2222222222222222",
-                new Card("2222222222222222","12/25","123",100));
-        String host = "http://localhost:";
         Amount amount = new Amount(100,"RUR");
         Transfer transfer = new Transfer("1111111111111111","12/25",
                 "321","2222222222222222",amount);
@@ -66,11 +53,19 @@ class CourseWork070822ApplicationTests {
         String answer = testRestTemplate.postForObject(host +
                 generic.getMappedPort(8080)+"/transfer",transfer,String.class);
 
-        Assertions.assertEquals("1", answer);
+        Assertions.assertEquals("Number is incorrect", answer);
     }
 
+    @Test
+    void testConfirmOperation(){
 
+        ConfirmOperationCode confirmOperationCode = new ConfirmOperationCode("1", "0000");
 
+        String answer = testRestTemplate.postForObject(host +
+                generic.getMappedPort(8080)+ "/confirmOperation", confirmOperationCode, String.class);
+
+        Assertions.assertEquals("operation number or code entered incorrectly", answer);
+    }
 
 
 
